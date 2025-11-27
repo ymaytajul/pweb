@@ -1,0 +1,8 @@
+{
+  "name": "pweb-php-vercel",
+  "version": "1.0.0",
+  "description": "PHP project deployed on Vercel using community builder.",
+  "devDependencies": {
+    "@php-runtime/vercel-php": "latest"
+  }
+}
