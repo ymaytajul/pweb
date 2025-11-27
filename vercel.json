@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(admin|assets|books|course|fpdf|posts|practice|profile|uploads)/(.*)",
+      "dest": "/$1/$2"
+    },
+    {
+      "src": "/.*",
+      "dest": "index.php"
+    }
+  ]
+}
